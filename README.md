@@ -4,8 +4,6 @@ Welcome to my personal portfolio website, built using **React** and **React Rout
 
 ## 🌐 Live Demo
 
-[View the Live Website](https://your-deployed-link.com) *(Update this with your actual deployment link like Vercel, Netlify, or GitHub Pages)*
-
 ## 🚀 Features
 
 - ⚛️ Built with React
