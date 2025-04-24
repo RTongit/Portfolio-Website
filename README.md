@@ -35,19 +35,19 @@ Welcome to my personal portfolio website, built using **React** and **React Rout
 - Git & GitHub
 
 ## 🛠️ Getting Started
-
-### 1. Clone the repository
+### 1.Create a folder.Open it with terminal
+### 2. Clone the repository
 ```bash
 git clone https://github.com/RTongit/Portfolio-Website.git
 cd Portfolio-Website
 ```
 
-### 2. Install dependencies
+### 3. Install dependencies
 ```bash
 npm install
 ```
 
-### 3. Run the app
+### 4. Run the app
 ```bash
 npm run dev
 ```
