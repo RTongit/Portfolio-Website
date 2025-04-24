@@ -72,5 +72,5 @@ npm start
 
 Have feedback or want to connect?
 
-📧 rohan@example.com *(replace with your real email)*  
-🌐 [LinkedIn](https://www.linkedin.com/in/your-profile)
+📧 rohantamuli27@gmail.com  
+🌐 https://in.linkedin.com/in/rohan-tamuli-598753281
