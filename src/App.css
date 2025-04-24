@@ -3,7 +3,6 @@ body{
     color: white;
 
     margin: 0px;
-    /* padding: 0px; */
     font-family: "Poppins", sans-serif;
 }
 
@@ -11,7 +10,6 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* background-color: aqua; */
 }
 .navbAR{
     display: flex;
@@ -28,7 +26,6 @@ margin-left: 70px;
 .ulContainer{
     display: flex;
     column-gap: 20px;
-    /* background-color: aqua; */
 
 }
 .ulContainer .LinkStyle{
@@ -69,7 +66,6 @@ main{
 .leftSection{
     width: 20%;
     padding-left: 10%;
-    /* background-color: aqua; */
 }
 .leftSection p{
 font-size: 2rem;
@@ -77,7 +73,6 @@ font-size: 2rem;
 .btnBox{
     display: flex;
     column-gap: 10px;
-    /* background-color: aqua; */
 }
 .btnBox button{
     padding: 8px 16px;
@@ -101,14 +96,12 @@ font-size: 2rem;
 
 .rightSection{
     width: 60%;
-    /* background-color: red; */
     display: flex;
     justify-content:flex-end;
 }
 .rightSection img{
     width: 55%;
     margin-right: 10%;
-    /* object-fit: cover; */
 }
 .line{
     height: 4px; 
@@ -143,7 +136,8 @@ text-decoration: underline;
     box-shadow: 5px 5px 10px white;
 }
 .projectLink{
- width: fit-content;  /* here width of each a tag is equal to its conteb=nt only */
+ width: fit-content;  
+ /* here width of each a tag is equal to its conteb=nt only */
 }
 .projectLink:hover{
     text-decoration: underline;
