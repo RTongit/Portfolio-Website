@@ -118,6 +118,7 @@ footer{
     grid-template-columns: auto auto auto ;
     justify-content: center;
     column-gap: 150px;
+    row-gap:5px;
 }
 footer a:hover{
 text-decoration: underline;
