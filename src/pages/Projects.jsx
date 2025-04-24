@@ -11,7 +11,7 @@ export default function Projects() {
             <h2>List of Project Names : </h2>
         <a href="https://github.com/RTongit/WeatherApp.git" className="projectLink" target="blanck">Weather App</a>
         <a href="https://github.com/RTongit/MusicPlayer.git" className="projectLink" target="blanck">Music Player</a>
-        <a href="#" className="projectLink" target="blanck">Portfolio Website</a>
+        <a href="https://github.com/RTongit/Portfolio-Website.git" className="projectLink" target="blanck">Portfolio Website</a>
         </nav>
     )
 }
