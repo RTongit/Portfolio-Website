@@ -14,11 +14,7 @@ body{
 .navbAR{
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     background: linear-gradient(90deg,rgb(34, 47, 196),rgb(3, 11, 97));
-=======
-    background-color: rgb(11, 20, 114);
->>>>>>> af8d5374ab7da7f902eacd18bd039e960cc00c62
     padding-right: 15px;
 }
 .navbAR h1{

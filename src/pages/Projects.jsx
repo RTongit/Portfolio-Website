@@ -3,11 +3,7 @@ export default function Projects() {
     const navStyle={
      display : "flex",
      flexDirection : "column",
-<<<<<<< HEAD
-    // this is
-=======
-    //  backgroundColor:"red"
->>>>>>> af8d5374ab7da7f902eacd18bd039e960cc00c62
+    
     }
 
     return(
