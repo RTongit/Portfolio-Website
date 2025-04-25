@@ -1,0 +1,146 @@
+body{
+    background-color:black;
+    color: white;
+
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.navbAR{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg,rgb(34, 47, 196),rgb(3, 11, 97));
+    padding-right: 15px;
+}
+.navbAR h1{
+color: white;
+margin-left: 70px;
+}
+
+.ulContainer{
+    display: flex;
+    column-gap: 20px;
+
+}
+.ulContainer .LinkStyle{
+    text-decoration: none;
+    font-size: 1.2em;
+    overflow: hidden;
+    border-radius: 16px;
+    color: white;
+    padding: 10px 16px;
+    background-color: rgba(0, 0, 0, 0.388);
+    transition: all 0.5s ease;
+
+}
+
+.ulContainer .LinkStyle:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 20px rgba(0,255,255,0.5);
+
+}
+.activeL {
+    text-decoration: none;
+    font-size: 1.2em;
+    overflow: hidden;
+    border-radius: 16px;
+    color: white;
+    padding: 10px 16px;
+    background-color:red;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin-top: 40px;
+}
+
+.leftSection{
+    width: 20%;
+    padding-left: 10%;
+}
+.leftSection p{
+font-size: 2rem;
+}
+.btnBox{
+    display: flex;
+    column-gap: 10px;
+}
+.btnBox button{
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.btnBox button:hover{
+    background-color: grey;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+ a:visited{
+    color: white;
+}
+
+
+.rightSection{
+    width: 60%;
+    display: flex;
+    justify-content:flex-end;
+}
+.rightSection img{
+    width: 55%;
+    margin-right: 10%;
+}
+.line{
+    height: 4px; 
+    background-color: rgb(60, 61, 61);
+    width: 90vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+footer{
+    display: grid;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom : 20px;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+    column-gap: 150px;
+    row-gap:5px;
+}
+footer a:hover{
+text-decoration: underline;
+}
+
+
+/* Designing Projects Page  */
+.navStyle{
+    width: 40%;
+    margin: auto;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 0px 0px 10px 20px;
+    box-shadow: 5px 5px 10px white;
+}
+.projectLink{
+ width: fit-content;  
+ /* here width of each a tag is equal to its conteb=nt only */
+}
+.projectLink:hover{
+    text-decoration: underline;
+}
+
