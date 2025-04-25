@@ -34,9 +34,9 @@ export default function Home() {
         <img src="/img/developer.jpg" alt="developer" />
       </section>
     </main>
+    {/* Creates a line */}
     <div className="line" />
     </>
     
-
   );
 }

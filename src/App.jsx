@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
+    
     <BrowserRouter>
     <div className="wrapper">
 
@@ -55,7 +56,6 @@ function App() {
       </footer>
 
     </div>
-
 
     </BrowserRouter>
   );
