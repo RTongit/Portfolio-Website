@@ -3,19 +3,15 @@ export default function Projects() {
     const navStyle={
      display : "flex",
      flexDirection : "column",
-<<<<<<< HEAD
-    // this is
-=======
-    //  backgroundColor:"red"
->>>>>>> af8d5374ab7da7f902eacd18bd039e960cc00c62
+    
     }
 
     return(
-        <nav className="navStyle">
+        <nav style={navStyle}>
             <h2>List of Project Names : </h2>
-        <a href="https://github.com/RTongit/WeatherApp.git" className="projectLink" target="blanck">Weather App</a>
-        <a href="https://github.com/RTongit/MusicPlayer.git" className="projectLink" target="blanck">Music Player</a>
-        <a href="https://github.com/RTongit/Portfolio-Website.git" className="projectLink" target="blanck">Portfolio Website</a>
+        <a href="https://github.com/RTongit/WeatherApp.git" className="projectLink" target="_blank">Weather App</a>
+        <a href="https://github.com/RTongit/MusicPlayer.git" className="projectLink" target="_blank">Music Player</a>
+        <a href="https://github.com/RTongit/Portfolio-Website.git" className="projectLink" target="_blank">Portfolio Website</a>
         </nav>
     )
 }
