@@ -14,7 +14,7 @@ export default function Home() {
             onClick={() => {
               const link = document.createElement("a");
               link.href =
-                "https://drive.google.com/file/d/10n4y1yB9_hxS687krEyPYWqiFYwCE6YO/view?usp=drive_link";
+                "https://drive.google.com/file/d/1umROjmSEqxMMzla48UXjG3-2L7ag03BJ/view?usp=drive_link";
               link.download = "Resume.pdf";
               link.click();
               document.getElementById("btn").appendChild(link);
